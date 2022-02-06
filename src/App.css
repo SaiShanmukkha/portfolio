@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+#root {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#portfolio-body {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.portfolio-section{
+  padding-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-weight-bold {
+  font-weight: 700!important;
 }
+
+p {
+  color: #999;
+}
+
+.bi {
+  display: block;
+  font-size: 20px;
+  color: #999;
+  height: 46px;
+  width: 46px;
+  line-height: 46px;
+  border: 2px solid #555;
+  border-radius: 50%;
+  text-align: center;
+  transition: .2s ease;
+}
+
+.bi:hover {
+  color: green;
+  border-color: green;
+}
+
+.paragraph {
+  font-weight: 400;
+  color: #999;
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+}
+
+h2, .h2 {
+  font-size: 48px !important;
+}
+
+h4, .h4 {
+  font-size: 24px !important;
+}
+
+.title-border {
+  border-bottom: green;
+}
+
