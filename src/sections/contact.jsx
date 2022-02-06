@@ -7,7 +7,7 @@ export default function Contact() {
             <h2 className="mb-4 mb-lg-5">Contact Me</h2>
             <form action="#" method="post">
               <div className="form-group mb-4">
-                <label for="name">Your Name</label>
+                <label htmlFor="name">Your Name</label>
                 <input
                   type="text"
                   className="form-control"
@@ -17,7 +17,7 @@ export default function Contact() {
                 />
               </div>
               <div className="form-group mb-4">
-                <label for="email">Your Email</label>
+                <label htmlFor="email">Your Email</label>
                 <input
                   type="email"
                   className="form-control"
@@ -27,7 +27,7 @@ export default function Contact() {
                 />
               </div>
               <div className="form-group mb-4">
-                <label for="message">Your Message</label>
+                <label htmlFor="message">Your Message</label>
                 <textarea
                   className="form-control"
                   id="message"
@@ -49,15 +49,15 @@ export default function Contact() {
             </p>
             <ul className="list-unstyled">
               <li className="d-flex mb-4">
-                <i className="ti-email h4 text-primary mr-3 mt-1"></i>
+                <i className="bi-email h4 text-primary mr-3 mt-1"></i>
                 <p className="mb-0">s.vanbuuren@uu.nl</p>
               </li>
               <li className="d-flex mb-4">
-                <i className="ti-mobile h4 text-primary mr-3 mt-1"></i>
+                <i className="bi-mobile h4 text-primary mr-3 mt-1"></i>
                 <p className="mb-0">+8801856388817</p>
               </li>
               <li className="d-flex mb-4">
-                <i className="ti-location-pin h4 text-primary mr-3 mt-1"></i>
+                <i className="bi-location-pin h4 text-primary mr-3 mt-1"></i>
                 <p className="mb-0">
                   Sjoerd Groenmangebouw C1.19, Padualaan 14,3584 CH Utrecht, The
                   Netherlands; TNO Child The Netherlands

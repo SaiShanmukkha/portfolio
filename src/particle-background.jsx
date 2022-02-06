@@ -3,14 +3,13 @@ import Particles from "react-tsparticles";
 export default function ParticleBackground() {
   const particlesInit = (main) => {
     console.log(main);
-
   };
 
   const particlesLoaded = (container) => {
     console.log(container);
   };
-    return (
-        <Particles
+  return (
+    <Particles
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
@@ -23,7 +22,7 @@ export default function ParticleBackground() {
               mode: "push",
             },
             onHover: {
-              enable: false,
+              enable: true,
               mode: "repulse",
             },
             resize: true,
@@ -52,8 +51,8 @@ export default function ParticleBackground() {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.5,
-            width: 1,
+            opacity: 0.8,
+            width: 0,
           },
           collisions: {
             enable: true,
@@ -62,8 +61,8 @@ export default function ParticleBackground() {
             direction: "none",
             enable: true,
             outMode: "bounce",
-            random: false,
-            speed: 1,
+            random: true,
+            speed: 2,
             straight: false,
           },
           number: {
@@ -74,18 +73,18 @@ export default function ParticleBackground() {
             value: 80,
           },
           opacity: {
-            value: 0.2,
+            value: 1,
           },
           shape: {
-            type: "triangl",
+            type: "circle",
           },
           size: {
             random: true,
-            value: 5,
+            value: 2,
           },
         },
         detectRetina: false,
       }}
     />
-    )
+  );
 }

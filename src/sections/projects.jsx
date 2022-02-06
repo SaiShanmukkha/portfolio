@@ -27,7 +27,7 @@ export default function Projects() {
       <div className="container">
         <div className="row">
           <div className="col-12 mb-5">
-            <h2>Things Done</h2>
+            <h2>Projects</h2>
           </div>
           <div className="col-lg-4 col-sm-6 mb-4">
             <article className="card bg-dark rounded-0 border-0">
@@ -93,25 +93,6 @@ export default function Projects() {
             </article>
           </div>
           <div className="col-lg-4 col-sm-6 mb-4">
-            <article className="card bg-dark rounded-0 border-0">
-              <img
-                src="https://demo.gethugothemes.com/gofolium/images/projects/project3.jpg"
-                alt=""
-                className="card-img-top mb-4 rounded-0"
-              />
-              <div className="card-body">
-                <h4 className="mb-3">
-                  <a href="https://demo.gethugothemes.com/gofolium/projects/project-3/">
-                    Reasons Why Employees Quit | Human Resources Analytics
-                  </a>
-                </h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua.
-                </p>
-              </div>
-            </article>
           </div>
           <div className="col-12 text-center mt-5">
             <a
