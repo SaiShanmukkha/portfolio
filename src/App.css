@@ -1,14 +1,13 @@
-#root {
-  background-color: black;
+
+#tsparticles {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 100;
+    left: 0
 }
 
-#portfolio-body {
-  color: white;
-  z-index: 20;
-}
-#tsparticles{
-  z-index: 0;
-}
 .portfolio-section{
   padding-top: 100px;
 }

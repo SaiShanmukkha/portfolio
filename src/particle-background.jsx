@@ -1,19 +1,15 @@
 import Particles from "react-tsparticles";
 
 export default function ParticleBackground() {
-  const particlesInit = (main) => {
-    console.log(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
   return (
     <Particles
       id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
       options={{
+        background: {
+          color: {
+            value: "#000",
+          },
+        },
         fpsLimit: 120,
         interactivity: {
           events: {
@@ -31,8 +27,8 @@ export default function ParticleBackground() {
             bubble: {
               distance: 400,
               duration: 2,
-              opacity: 0.4,
-              size: 20,
+              opacity: 0.8,
+              size: 40,
             },
             push: {
               quantity: 4,
@@ -45,14 +41,14 @@ export default function ParticleBackground() {
         },
         particles: {
           color: {
-            value: "#A020F0",
+            value: "#8800ff",
           },
           links: {
-            color: "#ffffff",
+            color: "#000",
             distance: 150,
             enable: true,
-            opacity: 0.8,
-            width: 0,
+            opacity: 0,
+            width: 1,
           },
           collisions: {
             enable: true,
@@ -61,8 +57,8 @@ export default function ParticleBackground() {
             direction: "none",
             enable: true,
             outMode: "bounce",
-            random: true,
-            speed: 2,
+            random: false,
+            speed: 6,
             straight: false,
           },
           number: {
@@ -80,10 +76,10 @@ export default function ParticleBackground() {
           },
           size: {
             random: true,
-            value: 2,
+            value: 3,
           },
         },
-        detectRetina: false,
+        detectRetina: true,
       }}
     />
   );
