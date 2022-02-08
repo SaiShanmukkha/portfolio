@@ -8,7 +8,7 @@ export default function SocialLinks() {
                 </li>
                 <li className="list-inline-item">
                     <a href="#">
-                        <i className="bi bi-twitter"></i>
+                        <i className="bi bi-discord"></i>
                     </a>
                 </li>
                 <li className="list-inline-item">

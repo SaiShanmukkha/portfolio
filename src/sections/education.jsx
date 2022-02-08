@@ -8,21 +8,24 @@ export default function Education () {
                     </div>
                     <div className="col-lg-8">
                         <div className="row justify-content-around">
-                            <div className="col-lg-5 col-sm-6 mb-4">
-                                <h4 className="title-border custom-item-heading">MSc in Research Methodology</h4>
-                                <p>September 2000 - May 2004
-                                    <br />University Of California</p>
-                            </div>
-                            <div className="col-lg-5 col-sm-6 mb-4">
-                                <h4 className="title-border custom-item-heading">BEng Electronic Engineering</h4>
+                            <div className="col-lg-6 col-sm-6 mb-4">
+                                <h4 className="custom-item-heading">MSc in Research Methodology</h4>
+                                <hr style={{color: "#FFFF00",height: 5}}  />
                                 <p>September 2000 - May 2004<br />University Of California</p>
                             </div>
-                            <div className="col-lg-5 col-sm-6 mb-4">
-                                <h4 className="title-border custom-item-heading">BEng Electronic Engineering</h4>
+                            <div className="col-lg-6 col-sm-6 mb-4">
+                                <h4 className="custom-item-heading">BEng Electronic Engineering</h4>
+                                <hr style={{color: "#FFFF00",height: 5}}  />
                                 <p>September 2000 - May 2004<br />University Of California</p>
                             </div>
-                            <div className="col-lg-5 col-sm-6 mb-4">
-                                <h4 className="title-border custom-item-heading">MSc in Research Methodology</h4>
+                            <div className="col-lg-6 col-sm-6 mb-4">
+                                <h4 className="custom-item-heading">BEng Electronic Engineering</h4>
+                              <hr style={{color: "#FFFF00",height: 5}}  />
+                                <p>September 2000 - May 2004<br />University Of California</p>
+                            </div>
+                            <div className="col-lg-6 col-sm-6 mb-4">
+                                <h4 className="custom-item-heading">MSc in Research Methodology</h4>
+                                <hr style={{color: "#FFFF00",height: 5}}  />
                                 <p>September 2000 - May 2004<br />University Of California</p>
                             </div>
                         </div>

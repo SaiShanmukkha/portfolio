@@ -72,7 +72,29 @@ h4, .h4 {
   color: #999;
 }
 
-
 .custom-item-heading {
   color: #b170e6;
 }
+
+
+.skill-item{
+  width: 100px;
+  display: flex;
+  margin: 5px;
+  height: auto;
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+
+/* .skill-item:hover {
+  border: 4px dotted purple;
+  transition: 0.5s;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+} */

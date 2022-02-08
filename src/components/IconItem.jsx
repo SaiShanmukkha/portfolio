@@ -3,9 +3,9 @@ export default function IconItem({logoName, logoLocation}){
 
         <div className="skill-item d-inline-flex  m-1 p-5">
                 <div className="skill-logo">
-                    <img width="60px" height="60px" src="./assets/icons/python.svg"/>
-                    <span className="custom-logo-Name">{logoName}</span>
+                    <img max-width="80px" height="80px" src={logoLocation}/>                   
                 </div>
+                 <div className="pt-2 text-center text-white">{logoName}</div>
         </div>
 
     );

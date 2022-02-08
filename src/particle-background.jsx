@@ -58,7 +58,7 @@ export default function ParticleBackground() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 1,
+            speed: 3,
             straight: false,
           },
           number: {
@@ -66,7 +66,7 @@ export default function ParticleBackground() {
               enable: true,
               area: 800,
             },
-            value: 40,
+            value: 80,
           },
           opacity: {
             value: 0.8,
