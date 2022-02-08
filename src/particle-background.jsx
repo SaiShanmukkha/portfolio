@@ -14,8 +14,8 @@ export default function ParticleBackground() {
         interactivity: {
           events: {
             onClick: {
-              enable: false,
-              mode: "push",
+              enable: true,
+              mode: "bubble",
             },
             onHover: {
               enable: true,
@@ -58,7 +58,7 @@ export default function ParticleBackground() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 6,
+            speed: 1,
             straight: false,
           },
           number: {
@@ -66,13 +66,13 @@ export default function ParticleBackground() {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 40,
           },
           opacity: {
-            value: 1,
+            value: 0.8,
           },
           shape: {
-            type: "circle",
+            type: "polygon",
           },
           size: {
             random: true,

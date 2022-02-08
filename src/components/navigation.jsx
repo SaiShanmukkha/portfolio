@@ -2,7 +2,7 @@ export default function Navigation () {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container">
-                <a className="navbar-brand link-light fs-1" href="#">Logo</a>
+                <a className="navbar-brand link-light fs-1" href="#"><img src="./images/logo.png" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

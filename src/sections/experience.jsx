@@ -9,7 +9,7 @@ export default function Experience() {
           <div className="col-lg-8">
             <div className="row justify-content-around">
               <div className="col-lg-8 col-sm-10 mb-4">
-                <h4 className="title-border">MSc in Research Methodology</h4>
+                <h4 className="title-border custom-item-heading ">MSc in Research Methodology</h4>
                 <p>
                   September 2000 - present
                   <br />
