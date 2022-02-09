@@ -78,23 +78,50 @@ h4, .h4 {
 
 
 .skill-item{
-  width: 100px;
-  display: flex;
+  position: relative;
+  width: 120px;
+  display: inline-flex;
   margin: 5px;
-  height: auto;
-  border: 2px solid yellow;
+  height: 120px;
+  justify-content: center;
   text-align: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 60px;
+} 
+
+.skill-name{
+  color: white;
+  position: absolute;
+  display: none;
+  border-bottom: 1px solid #c787ff;
+  transform: translateY(160%);
+  font-weight: 900;
+  z-index: 5;
 }
 
+.skill-item-border {
+  position: absolute;
+  display:block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-clip: content-box;
+}
 
-/* .skill-item:hover {
-  border: 4px dotted purple;
-  transition: 0.5s;
+.skill-item:hover .skill-item-border {  
+  border: 4px dashed #8800ff;
   animation: spin 10s linear infinite;
+}
+
+.skill-item:hover .skill-name{
+  display: inline-block;
 }
 
 @keyframes spin { 
   100% { 
     transform: rotateZ(360deg);
   }
-} */
+}
+
+

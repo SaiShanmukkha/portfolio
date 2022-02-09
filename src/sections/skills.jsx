@@ -41,11 +41,27 @@ export default function Skills() {
     {
       "skill_name": "Javascript",
       "skill_logo": "./assets/icons/javascript.svg"
+    },    
+    {
+      "skill_name": "Node JS",
+      "skill_logo": "./assets/icons/nodejs.png"
     },
     {
-      "skill_name": "Firebase",
-      "skill_logo": "./assets/icons/firebase.svg"
+      "skill_name": ".Net Core",
+      "skill_logo": "./assets/icons/netcore.png"
     },
+    {
+      "skill_name": "Sql",
+      "skill_logo": "./assets/icons/sql.png"
+    },
+    {
+      "skill_name": "Sql Server",
+      "skill_logo": "./assets/icons/sql-server.png"
+    },
+    {
+      "skill_name": "AWS",
+      "skill_logo": "./assets/icons/aws.png"
+    }
   ];
   return (
     <div className="portfolio-section">
@@ -54,7 +70,7 @@ export default function Skills() {
             <div className="flex">
                     {
                       skillData.map((skillItem)=>{
-                        return <IconItem logoName={skillItem.skill_name} logoLocation={skillItem.skill_logo} />
+                        return <IconItem key={skillItem.skill_name}  logoName={skillItem.skill_name} logoLocation={skillItem.skill_logo} />
                       })
                     }
                     
