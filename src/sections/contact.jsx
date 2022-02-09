@@ -49,15 +49,15 @@ export default function Contact() {
             </p>
             <ul className="list-unstyled">
               <li className="d-flex mb-4">
-                <i className="bi-email h4 text-primary mr-3 mt-1"></i>
+                <i className="bi-mailbox2 h4 text-primary mr-3 mt-1"></i>
                 <p className="mb-0">s.vanbuuren@uu.nl</p>
               </li>
               <li className="d-flex mb-4">
-                <i className="bi-mobile h4 text-primary mr-3 mt-1"></i>
+                <i className="bi-phone h4 text-primary mr-3 mt-1"></i>
                 <p className="mb-0">+8801856388817</p>
               </li>
               <li className="d-flex mb-4">
-                <i className="bi-location-pin h4 text-primary mr-3 mt-1"></i>
+                <i className="bi-arrow-through-heart-fill h4 text-primary mr-3 mt-1"></i>
                 <p className="mb-0">
                   Sjoerd Groenmangebouw C1.19, Padualaan 14,3584 CH Utrecht, The
                   Netherlands; TNO Child The Netherlands

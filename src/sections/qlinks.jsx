@@ -7,7 +7,7 @@ export default function QLinks() {
         <SocialLinks></SocialLinks>
         <hr className="mx-auto border-default" />
         <p className="mt-5">
-          Copyright © 2022 <a href="#">Albert</a>
+          Copyright © {new Date().getFullYear()}, All Rights Reserved. 
         </p>
       </div>
     </div>
