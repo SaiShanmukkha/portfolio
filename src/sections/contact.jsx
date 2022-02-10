@@ -7,7 +7,7 @@ export default function Contact() {
             <h2 className="mb-4 mb-lg-5">Contact Me</h2>
             <form action="#" method="post">
               <div className="form-group mb-4">
-                <label htmlFor="name">Your Name</label>
+                <label htmlFor="name" className="text-white mb-1">Name</label>
                 <input
                   type="text"
                   className="form-control"
@@ -17,7 +17,7 @@ export default function Contact() {
                 />
               </div>
               <div className="form-group mb-4">
-                <label htmlFor="email">Your Email</label>
+                <label htmlFor="email " className="text-white mb-1">Email</label>
                 <input
                   type="email"
                   className="form-control"
@@ -27,7 +27,7 @@ export default function Contact() {
                 />
               </div>
               <div className="form-group mb-4">
-                <label htmlFor="message">Your Message</label>
+                <label htmlFor="message" className="text-white mb-1">Message</label>
                 <textarea
                   className="form-control"
                   id="message"
@@ -35,12 +35,12 @@ export default function Contact() {
                   placeholder="Your Message"
                 ></textarea>
               </div>
-              <button className="btn btn-primary" type="submit" value="send">
+              <button className="btn btn-outline-success" type="submit" value="send">
                 Send Now
               </button>
             </form>
           </div>
-          <div className="col-lg-5 offset-lg-1">
+          {/* <div className="col-lg-5 offset-lg-1">
             <h2 className="mb-4 mb-lg-5">Get In Touch</h2>
             <p className="mb-4 mb-lg-5">
               Let’s talk about your project and how I can help you or if you
@@ -64,7 +64,7 @@ export default function Contact() {
                 </p>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

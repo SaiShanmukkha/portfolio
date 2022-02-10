@@ -1,4 +1,26 @@
+import EducationItem from "../components/educationItem";
+
 export default function Education () {
+    let educationData = [
+        {
+            "Degree": "Secondary School Education",
+            "period": "May 2015",
+            "Major": "General Science",
+            "place": "Sasi English Medium School."
+        },
+        {
+            "Degree": "Associate Degree (Intermediate)",
+            "period": "july 2015 - March 2017",
+            "major": "Mathematics, Physics and Chemistry",
+            "place": "Sasi Junior College."
+        },
+        {
+            "Degree": "Bachelor of Technology - ECE",
+            "Major" : "Electronics and Communication Engineering",
+            "period": "July 2017- May 2021",
+            "place": "National Institute of Technology, Patna."
+        },
+    ];
     return (
         <div className="portfolio-section">
             <div className="container">
@@ -8,26 +30,12 @@ export default function Education () {
                     </div>
                     <div className="col-lg-8">
                         <div className="row justify-content-around">
-                            <div className="col-lg-6 col-sm-6 mb-4">
-                                <h4 className="custom-item-heading">MSc in Research Methodology</h4>
-                                <hr style={{color: "#FFFF00",height: 5}}  />
-                                <p>September 2000 - May 2004<br />University Of California</p>
-                            </div>
-                            <div className="col-lg-6 col-sm-6 mb-4">
-                                <h4 className="custom-item-heading">BEng Electronic Engineering</h4>
-                                <hr style={{color: "#FFFF00",height: 5}}  />
-                                <p>September 2000 - May 2004<br />University Of California</p>
-                            </div>
-                            <div className="col-lg-6 col-sm-6 mb-4">
-                                <h4 className="custom-item-heading">BEng Electronic Engineering</h4>
-                              <hr style={{color: "#FFFF00",height: 5}}  />
-                                <p>September 2000 - May 2004<br />University Of California</p>
-                            </div>
-                            <div className="col-lg-6 col-sm-6 mb-4">
-                                <h4 className="custom-item-heading">MSc in Research Methodology</h4>
-                                <hr style={{color: "#FFFF00",height: 5}}  />
-                                <p>September 2000 - May 2004<br />University Of California</p>
-                            </div>
+                           {
+                               educationData.map((item)=>{
+                                   return  <EducationItem  degree={item.Degree} period={item.period} institute={item.place}/>
+                               })
+                           }
+                           
                         </div>
                     </div>
                 </div>

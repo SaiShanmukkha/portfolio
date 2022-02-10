@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div className="portfolio-section">
       <h1 className="display-1 font-weight-bold title mb-2">
-        Hey, I'm Albert Einstein
+        Hey, I'm Sai Shanmukkha
       </h1>
       <div className="custom-typeWriter">
         <TypeWriter
           options={{
-            strings: ["Nuclear Physicist", "Mass Energy Equation Creator", "High Level IQer"],
+            strings: ["Active Learner", "AWS Certified Developer", "Web Developer", "Cloud Enthusisast"],
             delay: 75,
             autoStart: true,
             loop: true,
