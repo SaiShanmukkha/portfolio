@@ -11,7 +11,7 @@ import Navigation from './components/navigation';
 import QLinks from './sections/qlinks';
 
 const App = () => {
-  document.title = "Albert Einstein"
+  document.title = "Sai Shanmukkha - Profile"
   return (
     <div>
       <ParticleBackground></ParticleBackground>

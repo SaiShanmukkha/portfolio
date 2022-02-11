@@ -3,18 +3,20 @@ export default function ProjectItem(prop){
 
     return (
         <div>
-            <article className="card bg-dark rounded-0 border-0 m-3">
+            <article className="card bg-dark rounded-0 border-0 m-3 p-1">
               <img
-                src="https://demo.gethugothemes.com/gofolium/images/projects/project1.jpg"
-                alt=""
+                src={prop.imageURL}
+                alt="project Image"
                 className="card-img-top mb-4 rounded-0"
+                width={300}
+                height={300}
               />
               <div className="card-body">
-                <h4 className="mb-3">
-                  <a href="https://demo.gethugothemes.com/gofolium/projects/project-1/">
+                <h5 className="mb-3">
+                  <a href={prop.projectURL}>
                    {prop.title}
                   </a>
-                </h4>
+                </h5>
                 <p>
                   {prop.description}
                 </p>

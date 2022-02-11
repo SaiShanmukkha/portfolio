@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="portfolio-section">
       <h1 className="display-1 font-weight-bold title mb-2">
-        Hey, I'm Sai Shanmukkha
+        Hey, I'm Sai Shanmukkha<span style={{color:"#ffff00"}}>!</span>
       </h1>
       <div className="custom-typeWriter">
         <TypeWriter

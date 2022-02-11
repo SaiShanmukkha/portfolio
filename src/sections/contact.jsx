@@ -10,7 +10,7 @@ export default function Contact() {
                 <label htmlFor="name" className="text-white mb-1">Name</label>
                 <input
                   type="text"
-                  className="form-control"
+                  className="form-control bg-transparent text-light"
                   id="name"
                   name="name"
                   placeholder="Your Name"
@@ -20,7 +20,7 @@ export default function Contact() {
                 <label htmlFor="email " className="text-white mb-1">Email</label>
                 <input
                   type="email"
-                  className="form-control"
+                  className="form-control bg-transparent text-light"
                   id="email"
                   name="email"
                   placeholder="Your Email"
@@ -29,7 +29,7 @@ export default function Contact() {
               <div className="form-group mb-4">
                 <label htmlFor="message" className="text-white mb-1">Message</label>
                 <textarea
-                  className="form-control"
+                  className="form-control bg-transparent text-light"
                   id="message"
                   name="message"
                   placeholder="Your Message"

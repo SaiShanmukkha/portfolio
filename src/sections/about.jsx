@@ -4,7 +4,7 @@ export default function About () {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-2">
-                        <img src="https://demo.gethugothemes.com/gofolium/images/author.jpg" className="img-fluid rounded-lg mb-4" alt="" />
+                        <img src="https://docs.google.com/uc?id=10hg5gUwxsCVjKtlr9titl7auLiSwGzFx" className="img-fluid rounded-lg mb-4" alt="profile.png" />
                     </div>
                     <div className="col-lg-8">
                         <p className="paragraph">College graduate with a strong computer science background and experience in exploratory data analysis, machine learning, and statistics. As a Passionate about learning new topics in data science, visualizing data, and doing research. I am like sharing valuable insights and making an impact that helps others learn through.</p>
