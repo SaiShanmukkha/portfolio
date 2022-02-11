@@ -197,3 +197,7 @@ h4, .h4 {
   background: green;
   color: white;
 }
+
+input, textarea {
+  outline: 1px solid green;
+}
