@@ -31,7 +31,7 @@ const App = () => {
         <Skills></Skills>
         <Certifications></Certifications>
         <Projects></Projects>
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
         <QLinks></QLinks>
       </div>
     </div>
