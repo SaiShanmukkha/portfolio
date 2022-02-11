@@ -17,7 +17,7 @@ export default function ProjectItem(prop){
                    {prop.title}
                   </a>
                 </h5>
-                <p>
+                <p className="noselect">
                   {prop.description}
                 </p>
               </div>

@@ -14,6 +14,7 @@ export default function Contact() {
                   id="name"
                   name="name"
                   placeholder="Your Name"
+                  required
                 />
               </div>
               <div className="form-group mb-4">
@@ -24,6 +25,7 @@ export default function Contact() {
                   id="email"
                   name="email"
                   placeholder="Your Email"
+                  required
                 />
               </div>
               <div className="form-group mb-4">
@@ -33,6 +35,7 @@ export default function Contact() {
                   id="message"
                   name="message"
                   placeholder="Your Message"
+                  required
                 ></textarea>
               </div>
               <button className="btn btn-outline-success" type="submit" value="send">
@@ -41,29 +44,7 @@ export default function Contact() {
             </form>
           </div>
           {/* <div className="col-lg-5 offset-lg-1">
-            <h2 className="mb-4 mb-lg-5">Get In Touch</h2>
-            <p className="mb-4 mb-lg-5">
-              Let’s talk about your project and how I can help you or if you
-              just want to chat about design and art - shoot me a message at{" "}
-              <a href="mailto:abcxmple@gmail.com">abcxmple@gmail.com</a>
-            </p>
-            <ul className="list-unstyled">
-              <li className="d-flex mb-4">
-                <i className="bi-mailbox2 h4 text-primary mr-3 mt-1"></i>
-                <p className="mb-0">s.vanbuuren@uu.nl</p>
-              </li>
-              <li className="d-flex mb-4">
-                <i className="bi-phone h4 text-primary mr-3 mt-1"></i>
-                <p className="mb-0">+8801856388817</p>
-              </li>
-              <li className="d-flex mb-4">
-                <i className="bi-arrow-through-heart-fill h4 text-primary mr-3 mt-1"></i>
-                <p className="mb-0">
-                  Sjoerd Groenmangebouw C1.19, Padualaan 14,3584 CH Utrecht, The
-                  Netherlands; TNO Child The Netherlands
-                </p>
-              </li>
-            </ul>
+           
           </div> */}
         </div>
       </div>

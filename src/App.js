@@ -12,7 +12,13 @@ import QLinks from './sections/qlinks';
 import Certifications from './sections/certification';
 
 const App = () => {
-  document.title = "Sai Shanmukkha - Profile"
+  document.title = "Sai Shanmukkha - Profile";
+   document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+  });
+   document.addEventListener('copy', (e) => {
+    e.preventDefault();
+  });
   return (
     <div>
       <ParticleBackground></ParticleBackground>
