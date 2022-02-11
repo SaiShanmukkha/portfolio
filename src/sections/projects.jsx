@@ -69,7 +69,7 @@ export default function Projects() {
     };
 
     return (
-      <div className="px-3">
+      <div className="px-3 portfolio-section">
         <h2> Projects</h2>
         <Slider {...settings}>
            {projectsData.map((projectItem)=>{

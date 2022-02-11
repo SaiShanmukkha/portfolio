@@ -9,6 +9,7 @@ import Experience from './sections/experience';
 import ParticleBackground from './particle-background';
 import Navigation from './components/navigation';
 import QLinks from './sections/qlinks';
+import Certifications from './sections/certification';
 
 const App = () => {
   document.title = "Sai Shanmukkha - Profile"
@@ -22,6 +23,7 @@ const App = () => {
         <Education></Education>
         <Experience></Experience>
         <Skills></Skills>
+        <Certifications></Certifications>
         <Projects></Projects>
         <Contact></Contact>
         <QLinks></QLinks>
