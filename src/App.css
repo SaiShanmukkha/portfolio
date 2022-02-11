@@ -188,7 +188,7 @@ h4, .h4 {
   }
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection { 
   background: green;
   color: white;
 }
