@@ -7,8 +7,9 @@ export default function About () {
                         <img src="https://docs.google.com/uc?id=10hg5gUwxsCVjKtlr9titl7auLiSwGzFx" className="img-fluid rounded-lg mb-4" alt="profile.png" />
                     </div>
                     <div className="col-lg-8">
-                        <p className="paragraph">College graduate with a strong computer science background and experience in exploratory data analysis, machine learning, and statistics. As a Passionate about learning new topics in data science, visualizing data, and doing research. I am like sharing valuable insights and making an impact that helps others learn through.</p>
-                        <p className="paragraph">code, visualizations, and narratives. Frequent competitor at Kaggle competitions. I’m always open for discussions, so feel free to ask any questions or concerns, I will.</p>
+                        <p className="paragraph"><span style={{color:"#fff",fontWeight:"bold"}}>Sai Shanmukkha, Surapaneni</span> is a Active Learner &amp; Cloud Enthusiast who is from Rajahmundry, Andhra Pradesh. He has recently done AWS Developer Associate Certification. He is passionate about working with Cloud technologies. He is also actively looking for opportunities to work with Cloud-based technologies.</p>
+                        <p className="paragraph">Always eager to learn New Technologies. I’m always open to discussions, so feel free to ask any questions or concerns. Always, happy to collaborate with the community.</p>
+                        <p className="paragraph">Currently Leanning Docker, React, etc.</p>                    
                     </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@ export default function Education () {
                         <h2>Education</h2>
                     </div>
                     <div className="col-lg-8">
-                        <div className="row justify-content-around">
+                        <div className="row justify-content-between">
                            {
                                educationData.map((item)=>{
                                    return  <EducationItem key={item.Id}  degree={item.Degree} period={item.period} institute={item.place}/>
